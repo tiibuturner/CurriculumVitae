@@ -1,0 +1,10 @@
+body {
+    background-color: #4C6173 !important;
+    height: 100vh;
+    margin: 0;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
