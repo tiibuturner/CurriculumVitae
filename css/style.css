@@ -9,6 +9,7 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: xx-large;
     margin: 5px;
+
 }
 p {
     font-size: large;
@@ -27,13 +28,16 @@ p {
     padding: 25px;
     float: right;
     width: 25%;
-    height: auto;    
+    height: auto;
+    width: 100%;
+    max-width: 400px; 
 }
 .col {
     margin: 25px 25px 120px 25px; 
     height: 4px;
     padding: 4px;
     flex-direction: row;
+    float:left;
 }
 li {
     font-size: large;
@@ -41,21 +45,28 @@ li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 5px;
 }
-a {
-    line-height: 50px;
-    font-size: large;
-    color: #D9D1BA;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 .photo1 {
     align-items: center;
-    height: 5%;
     width: 5%;
     margin: 1px;
+    max-width: 100%;
+    height: auto;
 }
 .photo2 {
     align-items: center;
-    height: 5%;
     width: 5%;
     margin: 1px;
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 600px) {
+    .col {
+      width: 100%;
+    }
+    body {
+        display: inline-block;
+    }
+    .about-section {
+        width: 100%;
+    }
 }
