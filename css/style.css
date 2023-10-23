@@ -85,12 +85,12 @@ a:hover {
         text-align: center !important;
         width: 100%;
     }
-    row {
-        display: inline-block;
-        text-align: center !important;
+    .about-section {
         width: 100%;
     }
-    .about-section {
+    p {
+        display: inline-block;
+        text-align: center !important;
         width: 100%;
     }
     h1 {
