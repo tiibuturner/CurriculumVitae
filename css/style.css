@@ -23,7 +23,7 @@ p {
     color: #D9D1BA;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#img {
+#myphoto {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -90,12 +90,7 @@ a:hover {
         display: inline-block;
         width: 100%;
     }
-    p {
-        text-align: center !important;
-        display: inline-block;
-        width: 100%;
-    }
-    li {
+    col-xs-8 col-md-6 {
         text-align: center !important;
         display: inline-block;
         width: 100%;
@@ -114,7 +109,7 @@ a:hover {
         height: auto;
         width: 75px; 
     }
-    img {
+    #myphoto {
     display: block;
     margin-left: auto;
     margin-right: auto;
