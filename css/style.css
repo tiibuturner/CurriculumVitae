@@ -75,11 +75,17 @@ a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 5px;
 }
+
 @media screen and (max-width: 600px) {
     .col {
         width: 100%;
     }
     body {
+        display: inline-block;
+        text-align: center !important;
+        width: 100%;
+    }
+    row {
         display: inline-block;
         text-align: center !important;
         width: 100%;
@@ -116,6 +122,6 @@ a:hover {
     width: 100%;
     max-width: 400px;
     border-radius: 50%;
-}
+    }
 
 }
