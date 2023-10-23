@@ -75,7 +75,12 @@ a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 5px;
 }
-
+a:visited {
+    font-size: large;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+}
 @media screen and (max-width: 600px) {
     .col {
         width: 100%;
