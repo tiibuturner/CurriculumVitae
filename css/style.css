@@ -81,6 +81,13 @@ a:visited {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 5px;
 }
+#fuutteri {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
 @media screen and (max-width: 600px) {
     .col {
         width: 100%;
@@ -118,15 +125,28 @@ a:visited {
         width: 75px; 
     }
     #myphoto {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    width: 25%;
-    height: auto;
-    width: 100%;
-    max-width: 400px;
-    border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        width: 25%;
+        height: auto;
+        width: 100%;
+        max-width: 400px;
+        border-radius: 50%;
+    }
+    #myButton {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        color: #000;
+        font-size: 30px;
+    }
+    #myButton:hover {
+    background-color: #3a3b3c;
+    color: #d9d1ba;
     }
 
 }
