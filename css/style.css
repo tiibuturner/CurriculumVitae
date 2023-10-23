@@ -9,7 +9,6 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: xx-large;
     margin: 5px;
-
 }
 p {
     font-size: large;
@@ -25,12 +24,15 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #img {
-    padding: 25px;
-    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
     width: 25%;
     height: auto;
     width: 100%;
-    max-width: 400px; 
+    max-width: 400px;
+    border-radius: 50%; 
 }
 .col {
     margin: 25px 25px 120px 25px; 
@@ -47,26 +49,59 @@ li {
 }
 .photo1 {
     align-items: center;
-    width: 5%;
     margin: 1px;
     max-width: 100%;
     height: auto;
+    padding: 5px;
+    width: 5%; 
 }
 .photo2 {
     align-items: center;
-    width: 5%;
     margin: 1px;
     max-width: 100%;
     height: auto;
+    padding: 5px;
+    width: 5%;
+}
+a {
+    font-size: large;
+    color: #D9D1BA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+}
+a:hover {
+    font-size: large;
+    color: #3a3b3c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
 }
 @media screen and (max-width: 600px) {
     .col {
-      width: 100%;
+        width: 100%;
     }
     body {
         display: inline-block;
     }
     .about-section {
         width: 100%;
+    }
+    h1 {
+        text-align: center !important;
+        display: inline-block;
+        width: 100%;
+    }
+    .photo1 {
+        align-items: center;
+        margin: 1px;
+        max-width: 100%;
+        height: auto;
+        width: 75px; 
+    }
+    .photo2 {
+        align-items: center;
+        margin: 1px;
+        max-width: 100%;
+        height: auto;
+        width: 75px; 
     }
 }
